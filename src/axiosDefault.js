@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export function setAxiosDefault() {
     //sets base url
-    axios.defaults.baseURL = process.env.REACT_APP_API_URL
+    axios.defaults.baseURL = 'https://ast-nest-backend.vercel.app/'
 
     //sets headers of request which helps server know what type of data
     //is received and to be sent
